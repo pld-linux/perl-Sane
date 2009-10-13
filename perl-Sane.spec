@@ -7,13 +7,13 @@
 Summary:	Sane - Perl extension for the SANE (Scanner Access Now Easy) Project
 #Summary(pl.UTF-8):	
 Name:		perl-Sane
-Version:	0.02
+Version:	0.03
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/R/RA/RATCLIFFE/Sane-0.02.tar.gz
-# Source0-md5:	03fa0ad2a50e18598d91f197924fb54d
+Source0:	http://www.cpan.org/modules/by-authors/id/R/RA/RATCLIFFE/%{pdir}-%{version}.tar.gz
+# Source0-md5:	db83b8b07e1263b78187c4349a183082
 URL:		http://search.cpan.org/dist/Sane/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
