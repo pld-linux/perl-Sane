@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Sane
 Summary:	Sane - Perl extension for the SANE (Scanner Access Now Easy) Project
-#Summary(pl.UTF-8):	
+#Summary(pl.UTF-8):
 Name:		perl-Sane
 Version:	0.03
 Release:	2
@@ -15,23 +15,23 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/R/RA/RATCLIFFE/%{pdir}-%{version}.tar.gz
 # Source0-md5:	db83b8b07e1263b78187c4349a183082
 URL:		http://search.cpan.org/dist/Sane/
+BuildRequires:	perl-ExtUtils-Depends
+BuildRequires:	perl-ExtUtils-PkgConfig
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	sane-backends-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The Sane module allows a Perl developer to use SANE-compatible scanners.
-Find out more about SANE at http://www.sane-project.org.
+The Sane module allows a Perl developer to use SANE-compatible
+scanners. Find out more about SANE at <http://www.sane-project.org>.
 
-Most methods set $Sane::STATUS, which is overloaded to give either an integer
-as dictated by the SANE standard, or the the corresponding message, as required.
+Most methods set $Sane::STATUS, which is overloaded to give either an
+integer as dictated by the SANE standard, or the the corresponding
+message, as required.
 
 Returns an array with the SANE_VERSION_(MAJOR|MINOR|BUILD) versions:
-
-  join('.',Sane->get_version)
-
-
+- join('.',Sane->get_version)
 
 # %description -l pl.UTF-8
 # TODO
