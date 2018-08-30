@@ -8,7 +8,7 @@ Summary:	Sane - Perl extension for the SANE (Scanner Access Now Easy) Project
 #Summary(pl.UTF-8):
 Name:		perl-Sane
 Version:	0.03
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
