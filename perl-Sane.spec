@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests		# do perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Sane
 Summary:	Sane - Perl extension for the SANE (Scanner Access Now Easy) Project
 #Summary(pl.UTF-8):
